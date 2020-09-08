@@ -50,7 +50,7 @@ const ParticlesComponent = () => (
             },
           },
           size: {
-            value: 1.5,
+            value: 2.5,
             random: true,
             anim: {
               enable: false,

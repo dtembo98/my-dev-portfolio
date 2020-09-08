@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer.jsx';
 import { Route, Switch } from 'react-router-dom';
 import Blog from './pages/Blog/blog.page';
 import Home from './pages/Home/Home.page';
+import ContactUsPage from './pages/Contact-Us/Contact-Us.page';
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/aboutus" component={ABoutUs} />
-        <Route path="/services" component={Services} />
-        <Route path="/portfolio" component={Projectpage} />
-        <Route path="/blog" component={Blog} />
+        <Route exact path="/services" component={Services} />
+        <Route exact path="/projects" component={Projectpage} />
+        <Route exact path="/blog" component={Blog} />
+        <Route exact path="/contact" component={ContactUsPage} />
       </Switch>
       {/* 
       <Banner />

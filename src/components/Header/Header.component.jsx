@@ -47,33 +47,9 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="portfolio">
-                    Portfolio
+                  <Link className="nav-link" to="projects">
+                    Projects
                   </Link>
-                </li>
-                <li className="nav-item submenu dropdown">
-                  <a
-                    href="#"
-                    className="nav-link dropdown-toggle"
-                    data-toggle="dropdown"
-                    role="button"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Pages
-                  </a>
-                  <ul className="dropdown-menu">
-                    <li className="nav-item">
-                      <Link className="nav-link" to="elements">
-                        Elements
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link" to="portfolio-details">
-                        Portfolio Details
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
 
                 <li className="nav-item">
